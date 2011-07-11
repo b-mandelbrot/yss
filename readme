@@ -1,0 +1,51 @@
+NOTE: for more info and other stuff go here:
+<a href='http://carls-permaculture.com/sms'>http://carls-permaculture.com/sms</a>
+
+==========================
+get_yahoo_stock_symbols.py
+==========================
+
+USAGE: python get_yahoo_stock_symbols.py -v -c 1
+
+the -v is to turn on the verbose option
+the -c is to specify that you want only 1-character symbols
+
+you can specify 1, 2, 3, 4, or 5-character symbols
+each option after 1 includes all the previous symbols
+for example, specifying -c 3 gives all 1, 2, and 3-character symbols
+
+OUTPUT:
+
+yahoo_stock_symbols_1.txt: about 19 stock symbols
+yahoo_stock_symbols_1.csv: symbols with names
+
+OPERATION:
+
+if you don't have python, download it from python.org
+if you don't have a broadband connection, drop me a line for how to go high speed without one
+
+=============================
+
+1-character symbols:
+yahoo_stock_symbols_1.txt: symbol
+yahoo_stock_symbols_1.csv: symbol, name
+
+1 and 2-character symbols:
+yahoo_stock_symbols_2.txt: symbol
+yahoo_stock_symbols_2.csv: symbol, name
+
+1, 2, and 3-character symbols:
+yahoo_stock_symbols_3.txt: symbol
+yahoo_stock_symbols_3.csv: symbol, name
+
+1, 2, 3, and 4-character symbols:
+yahoo_stock_symbols_4.txt: symbol
+yahoo_stock_symbols_4.csv: symbol, name
+
+1, 2, 3, 4, and 5-character symbols:
+yahoo_stock_symbols_5.txt: symbol
+yahoo_stock_symbols_5.csv: symbol, name
+
+carlwenrich@yahoo.com
+
+
